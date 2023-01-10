@@ -5,11 +5,11 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function Navigation() {
   return (
-    <Navbar bg='light' expand='sm'>
-      <Container className='d-flex'>
+    <Navbar className='fixed-top' id="navigation" bg='light' expand='md'>
+      <Container  className='d-flex px-4' fluid>
         <Navbar.Brand>BU</Navbar.Brand>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
-        <Navbar.Collapse 
+        <Navbar.Collapse
           className='justify-content-end' 
           id='basic-nav-nav'
         >

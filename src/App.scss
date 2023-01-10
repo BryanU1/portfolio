@@ -1,3 +1,5 @@
+$blue: rgb(56, 135, 253);
+
 /* Navbar */
 #navigation {
   padding: 20px;
@@ -5,7 +7,7 @@
   height: 80px;
 }
 
-#navigation a.nav-link {
+#navigation a.nav-link{
   letter-spacing: 0.03rem;
   text-transform: uppercase;
   color: black;
@@ -15,11 +17,12 @@
   transform: scale(1.1);
 }
 
-#navigation a.active, #navigation a:focus {
+#navigation a.active, #navigation a:focus{
   border-bottom: 0.3rem solid rgb(218, 233, 89);
 }
 
 /* Content */
+
 .content {
   padding: 0 150px;
   display: flex;
@@ -27,13 +30,14 @@
 }
 
 /* Hero Section */
+
 #hero {
   height: 100vh;
   display: flex;
   align-items: center;
 }
 
-#hero div {
+#hero div{
   max-width: 1000px;
 }
 
@@ -42,7 +46,7 @@
   right: 4px;
   font-size: 4rem;
   font-weight: 700;
-  color: rgb(56, 135, 253);
+  color: $blue;
 }
 
 #hero h2 {
@@ -58,4 +62,4 @@
   max-width: 600px;
 }
 
-/*# sourceMappingURL=App.css.map */
+
