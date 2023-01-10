@@ -7,16 +7,16 @@ function Navigation() {
   return (
     <Navbar className='fixed-top' id="navigation" bg='light' expand='md'>
       <Container  className='d-flex px-4' fluid>
-        <Navbar.Brand>BU</Navbar.Brand>
+        <Navbar.Brand href='/'>BU</Navbar.Brand>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse
           className='justify-content-end' 
           id='basic-nav-nav'
         >
           <Nav>
-            <Nav.Link>About</Nav.Link>
-            <Nav.Link>Projects</Nav.Link>
-            <Nav.Link>Contact</Nav.Link>
+            <Nav.Link href='#about'>About</Nav.Link>
+            <Nav.Link href='#projects'>Projects</Nav.Link>
+            <Nav.Link href='#contact'>Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
