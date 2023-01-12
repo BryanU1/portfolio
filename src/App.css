@@ -174,4 +174,19 @@ img {
   margin-bottom: 100px;
 }
 
+/* contact */
+#contact p {
+  width: 600px;
+  text-align: center;
+}
+
+#contact button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0.3rem;
+  background-color: rgb(23, 30, 92);
+  color: rgb(237, 247, 255);
+  font-weight: bolder;
+}
+
 /*# sourceMappingURL=App.css.map */
