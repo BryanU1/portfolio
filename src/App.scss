@@ -80,7 +80,6 @@ section {
 
 #navigation a.active, #navigation .nav-link:focus{
   border-bottom: 0.3rem solid rgb(0, 0, 0);
-  outline: none;
 }
 
 /* Hero Section */
@@ -200,4 +199,19 @@ img {
   background-color: $darker;
   color: $white;
   font-weight: bolder;
+}
+
+/* Contact List */
+
+#contact-list {
+  list-style-type: none;
+  padding: 0;
+  position: fixed;
+  bottom: 20px;
+  right: 20px
+}
+
+#contact-list img {
+  width: 40px;
+  margin-top: 15px;
 }
