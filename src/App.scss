@@ -1,24 +1,49 @@
 $blue: rgb(56, 135, 253);
+$dark: rgb(98, 117, 145);
+$darker: rgb(23, 30, 92);
+$light: rgb(119, 162, 255);
+$yellow: rgb(226, 191, 96);
 
 /* Font */
 
-
 .text-lg {
   font-size: 4.5rem;
-  font-weight: 700;
 }
 
 .text-md {
   font-size: 3rem;
-  font-weight: 700;
 }
 
 .text-sm {
+  font-size: 1.5rem;
+}
+
+.text-xs {
   font-size: 1.3rem;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-300 {
+  font-weight: 300;
 }
 
 .text-blue {
   color: $blue;
+}
+
+.secondary {
+  color: $dark;
+}
+
+.yellow {
+  color: $yellow;
+}
+
+.align-right {
+  text-align: end;
 }
 
 /* App Layout */
@@ -31,10 +56,9 @@ $blue: rgb(56, 135, 253);
 
 .content {
   padding: 0 150px;
-  max-width: 1000px;
+  max-width: 1300px;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 section {
@@ -45,7 +69,6 @@ section {
 #navigation {
   padding: 20px;
   z-index: 1;
-  border-bottom: 1px solid rgb(226, 226, 226);
 }
 
 #navigation a.nav-link{
@@ -74,10 +97,90 @@ section {
 
 /* About Section */
 
+#about h2 {
+  margin-bottom: 40px;
+}
+
 #about p {
-  max-width: 1000px;
+  max-width: 600px;
+  margin-right: 50px;
 }
 
 #about ul {
   width: 120px;
+  list-style: none;
+  margin-right: 20px;
+  padding: 0;
+}
+
+/* Projects Section */
+
+#projects h2 {
+  padding-bottom: 40px;
+}
+
+img {
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.img-link {
+  height: min(20vw, 300px);
+}
+
+.sample {
+  height: min(20vw, 300px);
+  border-bottom: 0.3rem solid $yellow;
+}
+
+.link_icon {
+  height: 30px;
+  margin-right: 5px;
+}
+
+.git_icon {
+  height: 29px;
+  margin-right: 5px;
+}
+
+.b-left {
+  border-left: 0.3rem solid $blue;
+}
+
+.b-right {
+  border-right: 0.3rem solid $blue;
+}
+
+#projects ul {
+  list-style: none;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.pos-right ul li {
+  margin-left: 10px;
+}
+
+.pos-left ul li {
+  margin-right: 10px;
+}
+
+#projects p {
+  background-color: $darker;
+  padding: 1.2rem;
+  border-radius: 0.3rem;
+  color: rgb(237, 247, 255);
+}
+
+.pos-right {
+  position: relative;
+  right: 6rem;
+}
+
+.pos-left {
+  position: relative;
+  left: 6rem;
+}
+
+.project {
+  margin-bottom: 100px;
 }

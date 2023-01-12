@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function Navigation() {
   return (
-    <Navbar className='fixed-top opacity-75' id="navigation" bg='primary' expand='md'>
+    <Navbar className='fixed-top' id="navigation" bg='primary' expand='md'>
       <Container  className='d-flex px-4' fluid>
         <Navbar.Brand href='/'>BU</Navbar.Brand>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
