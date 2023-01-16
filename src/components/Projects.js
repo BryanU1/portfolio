@@ -1,14 +1,20 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import store from '../images/keyboard-store.png';
 import cw from '../images/competitive-wordle.png';
 import external_link from '../images/external.png';
 import github from '../images/github-mark.png';
 
 function Projects() {
+  const [width, setWidth] = useState(window.innerWidth);
+
+  window.addEventListener('resize', function(event) {
+    setWidth(window.innerWidth);
+  })
+
   return (
     <section id='projects'>
-      <h2 className='text-md fw-700 secondary'>Projects</h2>
-      <div className='d-flex project'>
+      <h2 className='text-md fw-700 text-blue'>Projects</h2>
+      <div className='d-flex project first'>
         <a 
           className='img-link'
           href='https://keyboard-store-app.herokuapp.com/'
@@ -21,14 +27,14 @@ function Projects() {
           <p className='align-right'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rutrum massa felis, quis tempor quam finibus non. Etiam aliquam felis mi, ac fringilla erat lobortis efficitur. 
           </p>
-          <ul className='d-flex justify-content-end'>
+          <ul className={`d-flex flex-wrap ${width <= 785 ? '' : 'justify-content-end'}`}>
             <li>React</li>
             <li>Express</li>
             <li>MongoDB</li>
             <li>Node.js</li>
             <li>SASS</li>
           </ul>
-          <ul className='d-flex justify-content-end'>
+          <ul className={`d-flex ${width <= 785 ? '' : 'justify-content-end'}`}>
             <li>
               <a
                 href='https://github.com/BryanU1/keyboard-store-app'
@@ -50,7 +56,7 @@ function Projects() {
           </ul>
         </div>
       </div>
-      <div className='d-flex justify-content-end project'>
+      <div className='d-flex justify-content-end project second'>
         <div className='align-self-center pos-left'>
           <h3 className='text-sm'>Matchmaking System For Wordle</h3>
           <p>
@@ -99,6 +105,7 @@ function Projects() {
         <a 
           href='https://competitive-wordle.herokuapp.com/'
           target='_blank'
+          className='img-link'
         >
           <img className='b-right sample' src={cw}/>
         </a>

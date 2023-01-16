@@ -1,6 +1,10 @@
 /* Font */
-.text-lg {
-  font-size: 4.5rem;
+.hero-lg {
+  font-size: clamp(40px, 7vw, 80px);
+}
+
+.hero-md {
+  font-size: clamp(20px, 4vw, 50px);
 }
 
 .text-md {
@@ -39,6 +43,11 @@
   text-align: end;
 }
 
+@media screen and (max-width: 785px) {
+  .align-right {
+    text-align: start;
+  }
+}
 /* App Layout */
 .app {
   display: flex;
@@ -53,6 +62,21 @@
   flex-direction: column;
 }
 
+@media screen and (max-width: 992px) {
+  .content {
+    padding: 0 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .content {
+    padding: 0 50px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .content {
+    padding: 0 25px;
+  }
+}
 section {
   padding: 100px 0;
 }
@@ -93,8 +117,14 @@ section {
 #about p {
   max-width: 600px;
   margin-right: 50px;
+  margin-bottom: 40px;
 }
 
+@media screen and (max-width: 768px) {
+  #about p {
+    margin-right: 0;
+  }
+}
 #about ul {
   width: 120px;
   list-style: none;
@@ -153,7 +183,7 @@ img {
 }
 
 #projects p {
-  background-color: rgb(23, 30, 92);
+  background-color: rgb(30, 24, 117);
   padding: 1.2rem;
   border-radius: 0.3rem;
   color: rgb(237, 247, 255);
@@ -173,9 +203,49 @@ img {
   margin-bottom: 100px;
 }
 
+@media screen and (max-width: 785px) {
+  .sample {
+    display: none;
+  }
+  .first {
+    background-image: url("./images/keyboard-store.png");
+    background-size: cover;
+  }
+  .second {
+    background-image: url("./images/competitive-wordle.png");
+    background-size: cover;
+  }
+  .project {
+    padding: 40px;
+    background-color: rgb(208, 223, 255);
+    background-blend-mode: overlay;
+    color: rgb(30, 24, 117);
+    border-left: 3px solid rgb(56, 135, 253);
+    border-bottom: 3px solid rgb(226, 191, 96);
+    font-weight: 700;
+  }
+  #projects h3 {
+    font-weight: 700;
+  }
+  #projects p {
+    background-color: unset;
+    color: unset;
+    padding: 0;
+  }
+  .pos-right {
+    position: static;
+  }
+  .pos-right ul li {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  .pos-left {
+    position: static;
+  }
+}
 /* contact */
 #contact p {
-  width: 600px;
+  max-width: 600px;
   text-align: center;
 }
 
@@ -183,7 +253,7 @@ img {
   padding: 10px 20px;
   border: none;
   border-radius: 0.3rem;
-  background-color: rgb(56, 135, 253);
+  background-color: rgb(30, 24, 117);
   color: rgb(237, 247, 255);
   font-weight: bolder;
 }

@@ -3,7 +3,7 @@ import React from 'react';
 function About() {
   return (
     <section id='about'>
-      <h2 className='text-md fw-700 secondary'>About Me</h2>
+      <h2 className='text-md fw-700 text-blue'>About Me</h2>
       <div className='d-flex flex-wrap justify-content-between'>
         <div>  
           <p>
