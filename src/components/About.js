@@ -7,11 +7,17 @@ function About() {
       <div className='d-flex flex-wrap justify-content-between'>
         <div>  
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rutrum massa felis, quis tempor quam finibus non. Etiam aliquam felis mi, ac fringilla erat lobortis efficitur. Praesent velit enim, commodo non porttitor et, faucibus at nisi. Vestibulum sed dignissim massa, fermentum sodales urna. Duis imperdiet pulvinar tortor, vel scelerisque sem scelerisque eu. Praesent faucibus, ligula vel pellentesque faucibus, diam orci mollis ante, vel fermentum sapien erat a lorem. Sed eu suscipit augue, accumsan mattis ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam sapien ipsum, tempus vulputate ornare vitae, finibus ut ipsum. Maecenas at efficitur est, eget posuere orci. Pellentesque scelerisque tortor in sapien euismod pharetra. Sed in sem et elit interdum vulputate. In sit amet est eget justo lobortis venenatis. Aliquam erat volutpat.
+            Hello! My name is Bryan, and I am a software developer. I specialize in front-end and back-end devlopment with <b>React</b> and <b>Express</b>.
+          </p>
+          <p>
+            My interest in software development stemmed from spending time with my computer. After spending so much time on the internet, I gradually became curious about the inner workings of the web and technologies in general. My curiosity in technologies led me to take classes on data structure & algorithms, robotics, and web design. Some projects I built over the years besides the projects listed in this website include: a door lock using Arduino, a multiplayer tapping game on Android, and game of life using Java.
+          </p>
+          <p>
+            My goal in learning software development is to contribute in the advancement of technologies. I want to see what kind of possibilities are there and how technologies can benefit everyone. Above all else, I want to learn everything about software development because it is fun.
           </p>
         </div>
         <div>
-          <h3 className='text-sm fw-700 secondary'>Technologies I work with:</h3>
+          <h3 className='text-sm fw-700 secondary'>Technologies I Work With:</h3>
           <div className='d-flex text-xs'>
             <ul>
               <li>JavaScript</li>
