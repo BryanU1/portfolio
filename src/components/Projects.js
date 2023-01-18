@@ -23,9 +23,9 @@ function Projects() {
           <img className='b-left sample' src={store}/>
         </a>
         <div className='align-self-center pos-right'>
-          <h3 className='text-sm align-right'>Keyboard Store</h3>
+          <h3 className='text-sm align-right'>Keyboard Store Clone</h3>
           <p className='align-right'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rutrum massa felis, quis tempor quam finibus non. Etiam aliquam felis mi, ac fringilla erat lobortis efficitur. 
+            An e-commerce website clone that allows customers to add products to their shopping cart. It also has a built-in build page that allows users to pick their own parts and personalize their own keyboard. The back-end server acts as a CRUD app that allows me to manage the product listing in this website.
           </p>
           <ul className={`d-flex flex-wrap ${width <= 785 ? '' : 'justify-content-end'}`}>
             <li>React</li>
@@ -60,7 +60,7 @@ function Projects() {
         <div className='align-self-center pos-left'>
           <h3 className='text-sm'>Matchmaking System For Wordle</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rutrum massa felis, quis tempor quam finibus non. Etiam aliquam felis mi, ac fringilla erat lobortis efficitur. 
+            A wordle clone game that incorporates a skill-based matchmaking system. By assigning each user an ELO rating &#40;similar to chess&#41;, players are able to play against each other with a similar skill level. 
           </p>
           <ul className='d-flex flex-wrap'>
             <li>React</li>

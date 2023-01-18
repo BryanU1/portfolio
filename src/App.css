@@ -115,7 +115,6 @@ section {
 }
 
 #about h3 {
-  margin-top: 30px;
   margin-bottom: 20px;
 }
 
@@ -129,6 +128,10 @@ section {
     margin-right: 0;
   }
 }
+.paragraphs {
+  margin-bottom: 20px;
+}
+
 #about ul {
   width: 120px;
   list-style: none;
