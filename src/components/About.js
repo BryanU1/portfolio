@@ -7,13 +7,13 @@ function About() {
       <div className='d-flex flex-wrap justify-content-between'>
         <div className='paragraphs'>  
           <p>
-            Hello! My name is Bryan, and I am a software developer. Specifically, I am a full-stack developer that that uses <b>React</b> and <b>Express</b>.
+            Hello! My name is Bryan, and I am a software developer. Specifically, I am a full-stack developer that uses <b>React</b> and <b>Express</b> to build apps that sound interesting to me.
           </p>
           <p>
-            My interest in software development stemmed from spending time with my computer. After spending so much time on the internet, I gradually became curious about the inner workings of the web and technologies in general. My curiosity in technologies led me to take classes on data structure & algorithms, robotics, and the introduction to data science. 
+            As a teenager, I would spend most of my life sitting in front of my computer. I would play games, and create servers on Minecraft for my friend group. Because I am always exposed to computers and technology, I gradually became curious of the inner workings of the web and how computers work in general. Using this curiousity, I took classes in college where I learned Java, data structures & algorithms, and the basics of data science.
           </p>
           <p>
-            My goal in learning software development is to contribute in the advancement of technologies. I want to see what kind of possibilities are there and how technologies can benefit everyone.
+            My goal in software development is to simply learn everything related to computers. I want to learn what the future holds for computers and how it can benefit everyone.
           </p>
         </div>
         <div>
