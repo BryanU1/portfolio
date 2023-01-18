@@ -3,6 +3,7 @@ import store from '../images/keyboard-store.png';
 import cw from '../images/competitive-wordle.png';
 import external_link from '../images/external.png';
 import github from '../images/github-mark.png';
+import portfolio from '../images/portfolio.png';
 
 function Projects() {
   const [width, setWidth] = useState(window.innerWidth);
@@ -109,6 +110,48 @@ function Projects() {
         >
           <img className='b-right sample' src={cw}/>
         </a>
+      </div>
+      <div className='d-flex project third'>
+        <a 
+          className='img-link'
+          href='https://bryanung.com/'
+          target='_blank'
+        >
+          <img className='b-left sample' src={portfolio}/>
+        </a>
+        <div className='align-self-center pos-right'>
+          <h3 className='text-sm align-right'>Portfolio</h3>
+          <p className='align-right'>
+            For this project, I decided to set up a react environment without the help of create-react-app. The purpose of this is to learn more about what goes on behind the scenes of create-react-app and to learn how to use Webpack.
+          </p>
+          <ul className={`d-flex flex-wrap ${width <= 785 ? '' : 'justify-content-end'}`}>
+            <li>React</li>
+            <li>Bootstrap</li>
+            <li>SASS</li>
+            <li>Webpack</li>
+            <li>Babel</li>
+          </ul>
+          <ul className={`d-flex ${width <= 785 ? '' : 'justify-content-end'}`}>
+            <li>
+              <a
+                href='https://github.com/BryanU1/portfolio'
+                target='_blank'
+              >
+                <img className='git_icon' src={github}/>
+              </a>
+              <span>Front-end</span>
+            </li>
+            <li>
+              <a 
+                href='https://bryanung.com/'
+                target='_blank'
+              >
+                <img className='link_icon' src={external_link}/>
+              </a>
+              <span>Link</span>
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
   )
