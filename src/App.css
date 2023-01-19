@@ -48,6 +48,21 @@
     text-align: start;
   }
 }
+/* button */
+.primary-button {
+  border: 2px solid rgb(56, 135, 253);
+  padding: 15px 25px;
+  background-color: white;
+  color: rgb(56, 135, 253);
+  border-radius: 0.3rem;
+  font-weight: 700;
+}
+
+.primary-button:hover {
+  background-color: rgb(56, 135, 253);
+  color: rgb(242, 247, 255);
+}
+
 /* App Layout */
 .app {
   display: flex;
@@ -90,7 +105,7 @@ section {
 #navigation a.nav-link {
   letter-spacing: 0.03rem;
   text-transform: uppercase;
-  color: rgb(0, 0, 0);
+  color: black;
 }
 
 #navigation a.active, #navigation .nav-link:focus {
@@ -193,7 +208,7 @@ img {
   background-color: rgb(30, 24, 117);
   padding: 1.2rem;
   border-radius: 0.3rem;
-  color: rgb(237, 247, 255);
+  color: rgb(242, 247, 255);
 }
 
 .pos-right {
@@ -214,26 +229,12 @@ img {
   .sample {
     display: none;
   }
-  .first {
-    background-image: url("./images/keyboard-store.png");
-    background-size: cover;
-  }
-  .second {
-    background-image: url("./images/competitive-wordle.png");
-    background-size: cover;
-  }
-  .third {
-    background-image: url("./images/portfolio.png");
-    background-size: cover;
-  }
   .project {
     padding: 40px;
-    background-color: rgb(208, 223, 255);
-    background-blend-mode: overlay;
     color: rgb(30, 24, 117);
     border-left: 3px solid rgb(56, 135, 253);
     border-bottom: 3px solid rgb(226, 191, 96);
-    font-weight: 700;
+    font-weight: 100;
   }
   #projects h3 {
     font-weight: 700;
@@ -258,15 +259,6 @@ img {
 #contact p {
   max-width: 600px;
   text-align: center;
-}
-
-#contact button {
-  padding: 10px 20px;
-  border: none;
-  border-radius: 0.3rem;
-  background-color: rgb(30, 24, 117);
-  color: rgb(237, 247, 255);
-  font-weight: bolder;
 }
 
 /* Contact List */

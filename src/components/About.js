@@ -10,10 +10,10 @@ function About() {
             Hello! My name is Bryan, and I am a software developer. Specifically, I am a full-stack developer that uses <b>React</b> and <b>Express</b> to build apps that sound interesting to me.
           </p>
           <p>
-            As a teenager, I would spend most of my life sitting in front of my computer. I would play games, and create servers on Minecraft for my friend group. Because I am always exposed to computers and technology, I gradually became curious of the inner workings of the web and how computers work in general. My curiosity led me to take classes in college where I learned Java, data structures & algorithms, and the basics of data science.
+            Because of how I grew up surrounded by technologies and computer, I had a natural tendency to be curious of the inner workings of the web and how computers work in general. With questions of how or why computers are able to function, I took classes in high school and college to better understand them. My journey of web development started in college when I found a website called, "The Odin Project" and used their resources to teach myself principles of developing a website.
           </p>
           <p>
-            My goal in software development is to simply learn everything related to computers. I want to learn what the future holds for computers and how it can benefit everyone.
+            My goal in software development is to develop skills in front-end and back-end. More specifically, I want to learn how to write clean code and develop scalable apps. 
           </p>
         </div>
         <div>

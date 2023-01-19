@@ -24,9 +24,9 @@ function Projects() {
           <img className='b-left sample' src={store}/>
         </a>
         <div className='align-self-center pos-right'>
-          <h3 className='text-sm align-right'>Keyboard Store Clone</h3>
+          <h3 className='text-sm align-right'>Keyboard Store</h3>
           <p className='align-right'>
-            An e-commerce website clone that allows customers to add products to their shopping cart. It also has a built-in build page that allows users to pick their own parts and personalize their own keyboard. The back-end server acts as a CRUD app that allows me to manage the product listing in this website.
+            An e-commerce website that allows customers to add products to their shopping cart. It also has a built-in build page that allows users to pick their own parts and personalize their own keyboard. The back-end server contains CRUD operations that manages the product listing in this website.
           </p>
           <ul className={`d-flex flex-wrap ${width <= 785 ? '' : 'justify-content-end'}`}>
             <li>React</li>
@@ -43,7 +43,7 @@ function Projects() {
               >
                 <img className='git_icon' src={github}/>
               </a>
-              <span>Front-end & Back-end</span>
+              <span>Code</span>
             </li>
             <li>
               <a 
@@ -59,7 +59,7 @@ function Projects() {
       </div>
       <div className='d-flex justify-content-end project second'>
         <div className='align-self-center pos-left'>
-          <h3 className='text-sm'>Matchmaking System For Wordle</h3>
+          <h3 className='text-sm'>Competitive Wordle</h3>
           <p>
             A wordle clone game that incorporates a skill-based matchmaking system. By assigning each user an ELO rating &#40;similar to chess&#41;, players are able to play against each other with a similar skill level. 
           </p>
@@ -76,21 +76,12 @@ function Projects() {
           <ul className='d-flex'>
             <li>
               <a
-                href='https://github.com/BryanU1/matchmaking'
+                href='https://github.com/BryanU1/competitive-wordle'
                 target='_blank'
               >
                 <img className='git_icon' src={github}/>
               </a>
-              <span>Front-end</span>
-            </li>
-            <li>
-              <a
-                href='https://github.com/BryanU1/matchmaking-authentication'
-                target='_blank'
-              >
-                <img className='git_icon' src={github}/>
-              </a>
-              <span>Back-end</span>
+              <span>Code</span>
             </li>
             <li>
               <a 
@@ -120,9 +111,9 @@ function Projects() {
           <img className='b-left sample' src={portfolio}/>
         </a>
         <div className='align-self-center pos-right'>
-          <h3 className='text-sm align-right'>Portfolio</h3>
+          <h3 className='text-sm align-right'>Personal Website</h3>
           <p className='align-right'>
-            For this project, I decided to set up a react environment without the help of create-react-app. The purpose of this is to learn more about what goes on behind the scenes of create-react-app and to learn how to use Webpack.
+            For this project, I decided to set up a react environment without the help of create-react-app. The purpose of this is to better understand the technologies behind create-react-app and to learn how to use Webpack.
           </p>
           <ul className={`d-flex flex-wrap ${width <= 785 ? '' : 'justify-content-end'}`}>
             <li>React</li>
@@ -139,7 +130,7 @@ function Projects() {
               >
                 <img className='git_icon' src={github}/>
               </a>
-              <span>Front-end</span>
+              <span>Code</span>
             </li>
             <li>
               <a 
